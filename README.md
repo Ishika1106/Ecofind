@@ -57,6 +57,3 @@ To run the project locally:
 git clone https://github.com/Ishika1106/Ecofind.git
 cd Ecofind
 Then open index.html in your browser.
-##  Project Goals
-EcoFind aims to support sustainable living by making it easier for users to discover and learn about eco-friendly products. The site is designed with a focus on simplicity, clarity, and responsiveness.
-
