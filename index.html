@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoFind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-800">
+  <!-- Navbar -->
+  <nav class="bg-[#042210] shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-6">
+        <div class="text-2xl font-bold text-green-100">EcoFind</div>
+        <a href="index.html" class="text-green-100 hover:text-white font-medium">Home</a>
+        <a href="reviews.html" class="text-green-100 hover:text-white font-medium">Reviews</a>
+      </div>
+      <div class="flex space-x-4">
+        <a href="login.html"
+          class="border border-green-100 text-green-100 px-4 py-1 rounded hover:bg-green-100 hover:text-[#042210] transition">Log
+          in</a>
+        <a href="signup.html"
+          class="border border-green-100 text-green-100 px-4 py-1 rounded hover:bg-green-100 hover:text-[#042210] transition font-semibold">Sign
+          up</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative h-[100vh] bg-cover bg-center text-white"
+    style="background-image: url('https://static.vecteezy.com/system/resources/thumbnails/049/855/347/small_2x/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+      <div class="text-center px-4">
+        <h1 class="text-5xl font-bold mb-4">Welcome to EcoFind</h1>
+        <p class="text-xl mb-6">Discover and review eco-friendly alternatives for everyday living</p>
+        <a href="#products" class="bg-[#042210] text-white px-6 py-3 rounded shadow hover:bg-green-800 transition">Start
+          Exploring</a>
+      </div>
+    </div>
+  </section>
+  <!-- Product Cards -->
+  <section id="products" class="bg-[#254c34] py-16">
+    <div class="max-w-7xl mx-auto px-6 text-white">
+      <div class="grid md:grid-cols-3 gap-8">
+        <a href="reviews.html#eco-product" class="block hover:shadow-xl transition">
+          <div class="bg-white text-gray-800 rounded-lg overflow-hidden shadow">
+            <img
+              src="https://market99.com/cdn/shop/articles/5-market-99-eco-friendly-products-for-sustainable-living-market-99.jpg?v=1697004181"
+              class="w-full h-48 object-cover" alt="Eco Product">
+            <div class="p-4">
+              <h3 class="text-lg font-bold">Eco Product</h3>
+              <p class="text-sm text-gray-600 mb-2">@ecofind</p>
+              <p class="text-sm">Sustainable and smart — perfect for a greener lifestyle.</p>
+              <p class="text-xs text-gray-500 mt-2">11 July 2025</p>
+            </div>
+          </div>
+        </a>
+        <a href="reviews.html#solar-lamp" class="block hover:shadow-xl transition">
+          <div class="bg-white text-gray-800 rounded-lg overflow-hidden shadow">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWRnfd_zJU8lZx1ROD_2WF2_MK6UjJhS4bvw&s"
+              class="w-full h-48 object-cover" alt="Solar Lamp">
+            <div class="p-4">
+              <h3 class="text-lg font-bold">Solar Lamp</h3>
+              <p class="text-sm text-gray-600 mb-2">@ecofind</p>
+              <p class="text-sm">Lights up your space with sunshine — literally.</p>
+              <p class="text-xs text-gray-500 mt-2">11 July 2025</p>
+            </div>
+          </div>
+        </a>
+        <a href="reviews.html#compost-bin" class="block hover:shadow-xl transition">
+          <div class="bg-white text-gray-800 rounded-lg overflow-hidden shadow">
+            <img src="https://www.ugaoo.com/cdn/shop/files/Compost_Bin_Set_of_1.jpg?v=1747289958"
+              class="w-full h-48 object-cover" alt="Compost Bin">
+            <div class="p-4">
+              <h3 class="text-lg font-bold">Compost Bin</h3>
+              <p class="text-sm text-gray-600 mb-2">@ecofind</p>
+              <p class="text-sm">Make waste useful. Perfect for kitchen scraps.</p>
+              <p class="text-xs text-gray-500 mt-2">11 July 2025</p>
+            </div>
+          </div>
+        </a>
+        <a href="reviews.html#tote-bag" class="block hover:shadow-xl transition">
+          <div class="bg-white text-gray-800 rounded-lg overflow-hidden shadow">
+            <img src="https://cpimg.tistatic.com/6671498/b/1/organic-cotton-bag.jpg" class="w-full h-48 object-cover"
+              alt="Tote Bag">
+            <div class="p-4">
+              <h3 class="text-lg font-bold">Organic Tote Bag</h3>
+              <p class="text-sm text-gray-600 mb-2">@ecofind</p>
+              <p class="text-sm">Ditch plastic. Go stylish and reusable!</p>
+              <p class="text-xs text-gray-500 mt-2">11 July 2025</p>
+            </div>
+          </div>
+        </a>
+        <a href="reviews.html#reusable-bottle" class="block hover:shadow-xl transition">
+          <div class="bg-white text-gray-800 rounded-lg overflow-hidden shadow">
+            <img
+              src="https://www.fairharborclothing.com/cdn/shop/articles/reusable_water_bottles_1000x.jpg?v=1602690133"
+              class="w-full h-48 object-cover" alt="Reusable Bottle">
+            <div class="p-4">
+              <h3 class="text-lg font-bold">Reusable Bottle</h3>
+              <p class="text-sm text-gray-600 mb-2">@ecofind</p>
+              <p class="text-sm">Lightweight and eco-friendly hydration!</p>
+              <p class="text-xs text-gray-500 mt-2">11 July 2025</p>
+            </div>
+          </div>
+        </a>
+
+
+        <a href="reviews.html#bamboo-toothbrush" class="block hover:shadow-xl transition">
+          <div class="bg-white text-gray-800 rounded-lg overflow-hidden shadow">
+            <img
+              src="https://5.imimg.com/data5/SELLER/Default/2021/11/RP/GI/TL/140258896/natural-bamboo-tooth-brush.png"
+              class="w-full h-48 object-cover" alt="Bamboo Toothbrush">
+            <div class="p-4">
+              <h3 class="text-lg font-bold">Bamboo Toothbrush</h3>
+              <p class="text-sm text-gray-600 mb-2">@ecofind</p>
+              <p class="text-sm">Natural and biodegradable — clean for you & the planet.</p>
+              <p class="text-xs text-gray-500 mt-2">11 July 2025</p>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+ <section class="bg-[#1b6935] py-20"> 
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center text-white mb-4">Hear From Our Users</h2>
+      <p class="text-white text-center mb-10">Trusted by conscious consumers across India 🌿</p>
+      <div class="grid md:grid-cols-4 gap-6">
+        <div class="bg-[#eefaed] text-[#173e2a] p-6 rounded shadow">
+          <p>“EcoFind introduced me to a world of sustainable options I never knew existed. It's my go-to place for
+            thoughtful purchases.”</p>
+          <p class="mt-2 font-semibold">— Ananya Sharma</p>
+        </div>
+        <div class="bg-[#eefaed] text-[#173e2a] p-6 rounded shadow">
+          <p>“Every product I found through EcoFind aligns with my zero-waste lifestyle. The reviews are detailed and
+            genuine.”</p>
+          <p class="mt-2 font-semibold">— Ravi Menon</p>
+        </div>
+        <div class="bg-[#eefaed] text-[#173e2a] p-6 rounded shadow">
+          <p>“EcoFind makes sustainability simple. Their recommendations helped me build an eco-friendly home without
+            hassle.”</p>
+          <p class="mt-2 font-semibold">— Meera Iyer</p>
+        </div>
+        <div class="bg-[#eefaed] text-[#173e2a] p-6 rounded shadow">
+          <p>“Great interface and amazing products. EcoFind helped me discover green alternatives I now love.”</p>
+          <p class="mt-2 font-semibold">— Aarav Khanna</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#14532d] text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8">
+      <div>
+        <h4 class="font-bold text-lg mb-2">About EcoFind</h4>
+        <p>EcoFind connects you to eco-conscious products that care for both people and the planet.</p>
+      </div>
+      <div>
+        <h4 class="font-bold text-lg mb-2">Quick Links</h4>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:underline">Home</a></li>
+          <li><a href="reviews.html" class="hover:underline">Product Reviews</a></li>
+          <li><a href="login.html" class="hover:underline">Login in</a></li>
+          <li><a href="signup.html" class="hover:underline">Sign up</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold text-lg mb-2">Support</h4>
+        <p>Email: <a href="mailto:support@ecofind.in" class="underline">support@ecofind.in</a></p>
+      </div>
+      <div>
+        <h4 class="font-bold text-lg mb-2">Follow Us</h4>
+        <div class="space-x-3">
+          <a href="#" class="hover:underline">Instagram</a>
+          <a href="#" class="hover:underline">Twitter</a>
+          <a href="#" class="hover:underline">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-10 text-sm">
+      <p>&copy; 2025 EcoFind. All rights reserved.</p>
+      <p>Made with 🌱 for a better tomorrow.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
